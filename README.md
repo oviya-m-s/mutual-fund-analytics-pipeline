@@ -21,7 +21,7 @@ It automates **data ingestion, transformation, storage, and analytics** using **
 
 ---
 
-## ⚙ETL Orchestration (Apache Airflow)
+## ETL Orchestration (Apache Airflow)
 - Automated **DAG** scheduled to run daily at **6:00 AM**.
 - Extracts NAV data → Loads into `current_nav` → Updates `nav_history`.  
 - Updates benchmark data daily.  
